@@ -13,8 +13,6 @@ public class EmployeeService {
 
 	// CREATE,GETALL EMPS,GET EMP BY ID, DELETE,UPDATE EMP DETAILS
 	
-	//In this interface contains all the unimplemented methods
-	// we can get all the implementations in our EmployeeServiceImpl class
 	
 	@Autowired
 	EmployeeRepository repo;
