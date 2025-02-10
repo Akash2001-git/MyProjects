@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER A COURSE </title>
+    <style>
+        body {
+            background-color: black;
+            text-align: center; 
+        }
+
+        form {
+            margin:  auto;
+            padding: 20px;
+            width: 400px; 
+            background-color: #fff;
+        }
+
+        input, select, button {
+            width: 90%;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white; 
+            font-weight: bold;
+            font-size: medium;
+            cursor: pointer; 
+        }
+
+        button:hover {
+            background-color: #104212; 
+        }
+    
+    </style>
+
+</head>
+<body>
+    <H1 style="color: yellow;">KICKSTART  WITH  AN  EXITING COURSES!!!</H1>
+
+    <form action="http://localhost:8080/courses/register" method="post">
+        <label for="name">Enter Your Name :</label><br>
+        <input type="text" name="name"><br><br>
+        <label for="email">Enter Your EmailId :</label><br>
+        <input type="email" name="email"><br><br>
+
+        <label for="course">Choose Your Course</label><br>
+        <select name="courseName" id="course">
+           <option value="Java Essentials">Java Essentials</option>
+           <option value="SpringBoot">SpringBoot</option>
+           <option value=" Frontent Technologies ">Frontent Technologies</option>
+           
+        </select>
+
+        <br><br>
+        <button type="submit">Submit</button>
+
+
+
+    </form>
+</body>
+</html>
